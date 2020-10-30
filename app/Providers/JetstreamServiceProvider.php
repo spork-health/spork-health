@@ -52,12 +52,10 @@ class JetstreamServiceProvider extends ServiceProvider
             'read',
             'update',
             'delete',
-        ])->description(__('Administrator users can perform any action.'));
+        ])->description(__('Administrator users can perform any action on your measurements.'));
 
-        Jetstream::role('editor', __('Editor'), [
+        Jetstream::role('spectator', __('Spectator'), [
             'read',
-            'create',
-            'update',
-        ])->description(__('Editor users have the ability to read, create, and update.'));
+        ])->description(__('Spectator users only have the ability to read your measurements.'));
     }
 }
