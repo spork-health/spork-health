@@ -23,7 +23,7 @@
                         <nav class="relative flex items-center justify-between sm:h-10">
                             <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                                 <div class="flex items-center justify-between w-full md:w-auto">
-                                    <a href="/" aria-label="Home">
+                                    <a href="/" aria-label="Dashboard">
                                         <img src="{{ asset('images/logo.svg') }}" class="h-16 w-16" />
                                     </a>
                                 </div>
