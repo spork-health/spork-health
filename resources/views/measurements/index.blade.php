@@ -12,7 +12,7 @@
             of accessibility concerns. Just make the a tag look like
             a button. TODO: refactor
             --}}
-            @if (Auth::user()->canEdit(Auth::user()->currentTeam))
+            @if (Auth::user()->hasTeamPermission(Auth::user()->currentTeam, 'create'))
                 <a href="/measurements/create">
                     <x-jet-button>
                         {{ __('Log Measurement') }}
