@@ -97,7 +97,7 @@
                                 <div class="flex-shrink-0">
                                     <div class="flex items-center justify-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke="currentColor" class="h-8 w-6 text-green-700">
+                                            stroke="currentColor" class="h-6 w-6 text-green-700">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                                 d="M21 6.285l-11.16 12.733-6.84-6.018 1.319-1.49 5.341 4.686 9.865-11.196 1.475 1.285z" />
                                         </svg>
@@ -123,7 +123,7 @@
                                 <div class="flex-shrink-0">
                                     <div class="flex items-center justify-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke="currentColor" class="h-8 w-6 text-green-700">
+                                            stroke="currentColor" class="h-6 w-6 text-green-700">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                                 d="M21 6.285l-11.16 12.733-6.84-6.018 1.319-1.49 5.341 4.686 9.865-11.196 1.475 1.285z" />
                                         </svg>
@@ -148,7 +148,7 @@
                                 <div class="flex-shrink-0">
                                     <div class="flex items-center justify-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke="currentColor" class="h-8 w-6 text-green-700">
+                                            stroke="currentColor" class="h-6 w-6 text-green-700">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                                 d="M21 6.285l-11.16 12.733-6.84-6.018 1.319-1.49 5.341 4.686 9.865-11.196 1.475 1.285z" />
                                         </svg>
@@ -172,7 +172,7 @@
                                 <div class="flex-shrink-0">
                                     <div class="flex items-center justify-center">
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24"
-                                            stroke="currentColor" class="h-8 w-6 text-green-700">
+                                            stroke="currentColor" class="h-6 w-6 text-green-700">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                                                 d="M21 6.285l-11.16 12.733-6.84-6.018 1.319-1.49 5.341 4.686 9.865-11.196 1.475 1.285z" />
                                         </svg>
