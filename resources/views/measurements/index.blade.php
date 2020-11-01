@@ -36,7 +36,7 @@
                 </div>
             @else
                 @if ($measurements->links()->paginator->hasPages())
-                    <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8 mb-4">
+                    <div class="bg-white shadow-xl rounded-lg p-8 mb-4">
                         {{ $measurements->links() }}
                     </div>
                 @endif
