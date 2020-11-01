@@ -35,6 +35,10 @@
                     @endif
                 </div>
             @else
+                <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8 mb-4">
+                    {{ $measurements->links() }}
+                </div>
+
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8">
 
                     <header class="grid grid-cols-3 bg-gray-100 rounded-t-lg border-b-2 border-gray-300">
@@ -66,6 +70,10 @@
                             </div>
                         </div>
                     @endforeach
+                </div>
+
+                <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8 mt-4">
+                    {{ $measurements->links() }}
                 </div>
             @endif
         </div>
