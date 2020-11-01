@@ -28,7 +28,11 @@
                     <p class="p-4 antialiased text-gray-800 text-xl font-semibold">
                         Add a new measurement to get started.
                     </p>
-                    <x-jet-button>Log Measurement</x-jet-button>
+                    @if (Auth::user()->hasTeamPermission(Auth::user()->currentTeam, 'create'))
+                        <a href="/measurements/create">
+                            <x-jet-button>Log Measurement</x-jet-button>
+                        </a>
+                    @endif
                 </div>
             @else
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8">
