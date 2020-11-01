@@ -35,9 +35,11 @@
                     @endif
                 </div>
             @else
-                <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8 mb-4">
-                    {{ $measurements->links() }}
-                </div>
+                @if (!empty($measurements->links()))
+                    <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8 mb-4">
+                        {{ $measurements->links() }}
+                    </div>
+                @endif
 
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
 
@@ -72,9 +74,11 @@
                     @endforeach
                 </div>
 
-                <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8 mt-4">
-                    {{ $measurements->links() }}
-                </div>
+                @if (!empty($measurements->links()))
+                    <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8 mt-4">
+                        {{ $measurements->links() }}
+                    </div>
+                @endif
             @endif
         </div>
     </div>
