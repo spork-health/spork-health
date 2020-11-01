@@ -38,6 +38,6 @@ class Measurement extends Model
 
     public function measurementType() 
     {
-        return $this->hasOne(MeasurementType::class, 'id');
+        return $this->belongsTo(MeasurementType::class);
     }
 }
