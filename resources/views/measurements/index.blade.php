@@ -39,7 +39,7 @@
                     {{ $measurements->links() }}
                 </div>
 
-                <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8">
+                <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
 
                     <header class="grid grid-cols-3 bg-gray-100 rounded-t-lg border-b-2 border-gray-300">
                         <div class="col-span-1 h-12 uppercase tracking-wide text-gray-700 font-bold
