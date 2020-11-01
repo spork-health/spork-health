@@ -26,7 +26,7 @@
             @endif
         </div>
 
-        <div class="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between w-full">
+        <div class="hidden sm:flex-1 sm:flex sm:items-center justify-between w-full">
             <div>
                 <p class="text-sm text-gray-700 leading-5">
                     {!! __('Showing') !!}
