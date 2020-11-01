@@ -80,11 +80,13 @@
                 <div class="sm:text-center lg:text-left xl:w-1/3">
                     <h3
                         class="mt-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-                        Selling one-liner
+                        Reduce in-person health appointments
                     </h3>
                     <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 xl:mr-4">
-                        Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-                        magnam voluptatum cupiditate veritatis in accusamus quisquam.
+                        With many patients in rural areas where they have limited access
+                        to their primary care doctor, it can be hard for them to get frequent
+                        care. Furthermore, COVID-19 makes it more difficult for us all. Spork
+                        Health makes it easier to get care remotely.
                     </p>
                 </div>
 
@@ -103,12 +105,14 @@
                                 </div>
                                 <div class="ml-4">
                                     <h4 class="text-xl leading-6 font-medium text-gray-900">
-                                        Our first important feature
+                                        Share health measurements
                                     </h4>
                                     <p class="mt-2 text-lg leading-6 text-gray-500">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Maiores impedit perferendis suscipit eaque, iste dolor
-                                        cupiditate blanditiis ratione.
+                                        Spork Health comes with features that allow you to
+                                        share your health measurements. This allows you to
+                                        give read-only access to your primary care doctor
+                                        to view them or simply have an admin user that manages
+                                        the account for you.
                                     </p>
                                 </div>
                             </div>
@@ -127,12 +131,13 @@
                                 </div>
                                 <div class="ml-4">
                                     <h4 class="text-xl leading-6 font-medium text-gray-900">
-                                        Second feature
+                                        Automatic tracking
                                     </h4>
                                     <p class="mt-2 text-lg leading-6 text-gray-500">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Maiores impedit perferendis suscipit eaque, iste dolor
-                                        cupiditate blanditiis ratione.
+                                        By integrating with various smart watches and other health
+                                        devices, Spork Health makes it easier to track your health
+                                        metrics by automatically pulling the measurements you give
+                                        permission to pull from them.
                                     </p>
                                 </div>
                             </div>
@@ -151,12 +156,12 @@
                                 </div>
                                 <div class="ml-4">
                                     <h4 class="text-xl leading-6 font-medium text-gray-900">
-                                        Third feature
+                                        Quickly notice health abnormalities
                                     </h4>
                                     <p class="mt-2 text-lg leading-6 text-gray-500">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Maiores impedit perferendis suscipit eaque, iste dolor
-                                        cupiditate blanditiis ratione.
+                                        Optionally, Spork Health can analyze your health data
+                                        as it is logged and be able to provide alerts when
+                                        it detects a possible risk from recent measurements.
                                     </p>
                                 </div>
                             </div>
@@ -175,12 +180,12 @@
                                 </div>
                                 <div class="ml-4">
                                     <h4 class="text-xl leading-6 font-medium text-gray-900">
-                                        And so on..
+                                        Visualize your health metrics
                                     </h4>
                                     <p class="mt-2 text-lg leading-6 text-gray-500">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                        Maiores impedit perferendis suscipit eaque, iste dolor
-                                        cupiditate blanditiis ratione.
+                                        By storing your health measurements in Spork Health,
+                                        it provides you an overview of how that data is
+                                        trending and a way to analyze it.
                                     </p>
                                 </div>
                             </div>
