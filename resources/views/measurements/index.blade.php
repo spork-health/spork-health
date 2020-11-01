@@ -35,7 +35,7 @@
                     @endif
                 </div>
             @else
-                @if (!empty($measurements->links()))
+                @if ($measurements->links()->paginator->hasPages())
                     <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8 mb-4">
                         {{ $measurements->links() }}
                     </div>
@@ -74,7 +74,7 @@
                     @endforeach
                 </div>
 
-                @if (!empty($measurements->links()))
+                @if ($measurements->links()->paginator->hasPages())
                     <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg p-8 mt-4">
                         {{ $measurements->links() }}
                     </div>
