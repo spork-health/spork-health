@@ -136,7 +136,7 @@
                                     <p class="mt-2 text-lg leading-6 text-gray-500">
                                         By integrating with various smart watches and other health
                                         devices, Spork Health makes it easier to track your health
-                                        metrics by automatically pulling the measurements you give
+                                        metrics by automatically pulling the metrics you give
                                         permission to pull from them.
                                     </p>
                                 </div>
