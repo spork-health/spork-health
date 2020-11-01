@@ -108,11 +108,9 @@
                                         Share health measurements
                                     </h4>
                                     <p class="mt-2 text-lg leading-6 text-gray-500">
-                                        Spork Health comes with features that allow you to
-                                        share your health measurements. This allows you to
-                                        give read-only access to your primary care doctor
-                                        to view them or simply have an admin user that manages
-                                        the account for you.
+                                        Spork Health allows you to give anyone with an account
+                                        either read-only access to view your health data or full
+                                        administrator privileges to manage your account.
                                     </p>
                                 </div>
                             </div>
