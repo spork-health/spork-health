@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\DashboardController;
-use App\Http\Controllers\MeasurementsController;
+use App\Http\Controllers\MeasurementController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,8 +20,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::middleware(['auth:sanctum', 'verified'])->group(function() {
-    Route::resource('measurements', MeasurementsController::class);
+Route::middleware(['auth:sanctum', 'verified'])->group(function () {
+    Route::resource('measurements', MeasurementController::class);
 
     Route::get('/dashboard', [DashboardController::class, 'view'])->name('dashboard');
 });

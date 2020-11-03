@@ -8,7 +8,7 @@ use App\Models\Measurement;
 use App\Models\MeasurementType;
 use App\Http\Requests\MeasurementFormRequest;
 
-class MeasurementsController extends Controller
+class MeasurementController extends Controller
 {
     /**
      * Enforces the measurement policy.
