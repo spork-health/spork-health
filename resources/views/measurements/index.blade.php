@@ -12,7 +12,7 @@
             of accessibility concerns. Just make the a tag look like
             a button. TODO: refactor
             --}}
-            @if (Auth::user()->hasTeamPermission(Auth::user()->currentTeam, 'create'))
+            @if (Gate::check('create', Auth::user()->currentTeam))
                 <a href="/measurements/create">
                     <x-jet-button class="font-extrabold text-xl">+</x-jet-button>
                 </a>
@@ -28,7 +28,7 @@
                     <p class="p-4 antialiased text-gray-800 text-xl font-semibold">
                         Add a new measurement to get started.
                     </p>
-                    @if (Auth::user()->hasTeamPermission(Auth::user()->currentTeam, 'create'))
+                    @if (Gate::check('create', Auth::user()->currentTeam))
                         <a href="/measurements/create">
                             <x-jet-button>Log Measurement</x-jet-button>
                         </a>
@@ -42,8 +42,8 @@
                 @endif
 
                 <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-
-                    <header class="grid grid-cols-3 bg-gray-100 rounded-t-lg border-b-2 border-gray-300">
+                    <header
+                        class="grid bg-gray-100 rounded-t-lg border-b-2 border-gray-300 {{ Gate::check('delete', Auth::user()->currentTeam) ? 'grid-cols-4' : 'grid-cols-3' }}">
                         <div class="col-span-1 h-12 uppercase tracking-wide text-gray-700 font-bold
                                 text-sm antialiased pt-3 ml-6">
                             Measurement
@@ -60,7 +60,8 @@
 
 
                     @foreach ($measurements as $m)
-                        <div class="grid grid-cols-3 py-6 border-b-2 hover:bg-gray-100">
+                        <div
+                            class="grid py-6 border-b-2 hover:bg-gray-100 {{ Gate::check('delete', Auth::user()->currentTeam) ? 'grid-cols-4' : 'grid-cols-3' }}">
                             <div class="col-span-1 h-12 text-gray-700 antialiased pt-3 ml-6">
                                 {{ $m->measurementType->name }}
                             </div>
@@ -70,6 +71,19 @@
                             <div class="col-span-1 h-12 text-gray-700 antialiased pt-3">
                                 {{ date('M jS, Y', strtotime($m->log_date)) }}
                             </div>
+
+                            @if (Gate::check('delete', Auth::user()->currentTeam))
+                                <div class="col-span-1 h-12 text-gray-700 antialiased pt-3 align-middle justify-center">
+                                    <form method="POST" action="/measurements/{{ $m->id }}">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit"
+                                            class="hover:text-red-500 transition duration-300 ease-in-out">
+                                            {{ __('Delete') }}
+                                        </button>
+                                    </form>
+                                </div>
+                            @endif
                         </div>
                     @endforeach
                 </div>
