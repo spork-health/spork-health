@@ -42,8 +42,10 @@ class MeasurementsController extends Controller
     public function create()
     {
         $measurementTypes = MeasurementType::orderBy('name')->get();
-        $todaysDate = date('Y-m-d');
-        
+        $todaysDate = new \DateTime('now', new \DateTimeZone(\getenv('TZ')));
+        $todaysDate->setTimestamp(time());
+        $todaysDate = $todaysDate->format('Y-m-d');
+
         return view('measurements.create', compact('measurementTypes', 'todaysDate'));
     }
 
