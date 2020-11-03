@@ -25,11 +25,9 @@ class MeasurementsController extends Controller
      */
     public function index()
     {
-        $measurements = Measurement::latest()->where(
-            'team_id', Auth::user()->currentTeam->id
-        )->orderBy(
-            'log_date', 'desc'
-        )->paginate(10);
+        $measurements = Measurement::where('team_id', Auth::user()->currentTeam->id)
+            ->orderBy('log_date', 'DESC')
+            ->paginate(10);
 
         return view('measurements.index', compact('measurements'));
     }
