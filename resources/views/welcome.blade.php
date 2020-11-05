@@ -59,7 +59,7 @@
                             <p
                                 class="mt-3 text-xl text-gray-600 sm:mt-5 sm:max-w-xl sm:mx-auto md:mt-5 md:text-2xl lg:mx-0">
                                 Spork allows patients to remotely track their own health
-                                metrics and share them with their primary care doctor who can
+                                metrics and share them with their primary care doctor, who can
                                 then virtually provide advice and recommendations.
                             </p>
                         </div>
@@ -80,13 +80,13 @@
                 <div class="sm:text-center lg:text-left xl:w-1/3">
                     <h3
                         class="mt-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-                        Data-driven Remote Care
+                        Data-driven remote care.
                     </h3>
                     <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 xl:mr-4">
-                        With many patients in rural areas where they have limited access
-                        to their primary care doctor, it can be hard for them to get frequent
-                        care. Furthermore, COVID-19 makes it more difficult for us all. Spork
-                        Health makes it easier to get care remotely.
+                        Many patients in rural areas have limited access
+                        to their primary care doctor, making it difficult to get frequent
+                        care. The COVID-19 pandemic has made it more difficult for all of us. Spork
+                        Health provides patients with accurate care remotely.
                     </p>
                 </div>
 
@@ -105,12 +105,11 @@
                                 </div>
                                 <div class="ml-4">
                                     <h4 class="text-xl leading-6 font-medium text-gray-900">
-                                        Share health measurements
+                                        Share your health. Securely.
                                     </h4>
                                     <p class="mt-2 text-lg leading-6 text-gray-500">
-                                        Spork Health allows you to give anyone with an account
-                                        either read-only access to view your health data or full
-                                        administrator privileges to manage your account.
+                                        Spork Health enables users to safely share health metrics with doctors and family.
+                                        Spork protects your data so YOU choose who can see it, not us.
                                     </p>
                                 </div>
                             </div>
@@ -129,13 +128,12 @@
                                 </div>
                                 <div class="ml-4">
                                     <h4 class="text-xl leading-6 font-medium text-gray-900">
-                                        Automatic tracking
+                                        Automatic tracking.
                                     </h4>
                                     <p class="mt-2 text-lg leading-6 text-gray-500">
                                         By integrating with various smart watches and other health
-                                        devices, Spork Health makes it easier to track your health
-                                        metrics by automatically pulling the metrics you give
-                                        permission to pull from them.
+                                        devices, Spork Health can automatically pull the metrics you give
+                                        permission to pull.
                                     </p>
                                 </div>
                             </div>
@@ -154,11 +152,11 @@
                                 </div>
                                 <div class="ml-4">
                                     <h4 class="text-xl leading-6 font-medium text-gray-900">
-                                        Quickly notice health abnormalities
+                                        Notice health problems faster.
                                     </h4>
                                     <p class="mt-2 text-lg leading-6 text-gray-500">
-                                        Optionally, Spork Health can analyze your health data
-                                        as it is logged and be able to provide alerts when
+                                        Optionally, Spork Health analyzes your health data
+                                        as it is logged and provides alerts when
                                         it detects a possible risk from recent measurements.
                                     </p>
                                 </div>
@@ -178,7 +176,7 @@
                                 </div>
                                 <div class="ml-4">
                                     <h4 class="text-xl leading-6 font-medium text-gray-900">
-                                        Visualize your health metrics
+                                        Visualize your health metrics.
                                     </h4>
                                     <p class="mt-2 text-lg leading-6 text-gray-500">
                                         By storing your health measurements in Spork Health,
