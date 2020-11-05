@@ -80,7 +80,7 @@
                 <div class="sm:text-center lg:text-left xl:w-1/3">
                     <h3
                         class="mt-8 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
-                        Reduce in-person health appointments
+                        Data-driven Remote Care
                     </h3>
                     <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 xl:mr-4">
                         With many patients in rural areas where they have limited access
