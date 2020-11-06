@@ -24,7 +24,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             @if (count($measurements) === 0)
                 <div class="text-center">
-                    <img src="{{ asset('images/empty-page.svg') }}" class="w-96 mx-auto" />
+                    <img src="{{ asset('images/empty-box.svg') }}" class="w-96 mx-auto" />
                     <p class="p-4 antialiased text-gray-800 text-xl font-semibold">
                         Add a new measurement to get started.
                     </p>
