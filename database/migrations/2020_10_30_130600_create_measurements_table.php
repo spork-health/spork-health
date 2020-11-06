@@ -9,6 +9,14 @@ class CreateMeasurementsTable extends Migration
     /**
      * Run the migrations.
      *
+     * There's a bit of a conflict here on what to do to make
+     * these measurements more flexible. You could make the
+     * generic "value" a string, but then you have a lot of
+     * coercion going on throughout the app, which isn't ideal.
+     * You could create a table for every measurement type, but
+     * that seems like it would balloon quickly. On top of that,
+     * it is harder to validate a string.
+     *
      * @return void
      */
     public function up()
@@ -17,7 +25,7 @@ class CreateMeasurementsTable extends Migration
             $table->id();
             $table->foreignId('team_id');
             $table->foreignId('measurement_type_id');
-            $table->date('log_date');
+            $table->datetimeTz('log_date');
             $table->double('value');
             $table->timestamps();
 
