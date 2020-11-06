@@ -23,6 +23,13 @@
                         {{ __('Measurements') }}
                     </x-jet-nav-link>
                 </div>
+
+                <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex">
+                    <x-jet-nav-link href="{{ route('health-logs.index') }}"
+                        :active="request()->routeIs('health-logs.index')">
+                        {{ __('Health Logs') }}
+                    </x-jet-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->
@@ -139,6 +146,10 @@
             <x-jet-responsive-nav-link href="{{ route('measurements.index') }}"
                 :active="request()->routeIs('measurements.index')">
                 {{ __('Measurements') }}
+            </x-jet-responsive-nav-link>
+            <x-jet-responsive-nav-link href="{{ route('health-logs.index') }}"
+                :active="request()->routeIs('health-logs.index')">
+                {{ __('Health Logs') }}
             </x-jet-responsive-nav-link>
         </div>
 

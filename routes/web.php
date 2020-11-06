@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MeasurementController;
+use App\Http\Controllers\HealthLogController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,6 +23,7 @@ Route::get('/', function () {
 
 Route::middleware(['auth:sanctum', 'verified'])->group(function () {
     Route::resource('measurements', MeasurementController::class);
+    Route::resource('health-logs', HealthLogController::class);
 
     Route::get('/dashboard', [DashboardController::class, 'view'])->name('dashboard');
 });
